@@ -24,12 +24,22 @@ struct ContentView: View {
             backgroundColor.ignoresSafeArea()
 
             if let mode = currentMode, !showMenu {
-                if mode == .crafting {
+                switch mode {
+                case .crafting:
                     CraftingGameView(onMenu: openMenu)
                         .id("crafting")
-                } else {
+                case .memory:
+                    MemoryGameView(onMenu: openMenu)
+                        .id("memory")
+                case .taboo:
+                    TabooGameView(onMenu: openMenu)
+                        .id("taboo")
+                case .minecraft:
                     wordSearchView
                         .id(mode.rawValue)
+                case .merge2048:
+                    Merge2048GameView(onMenu: openMenu)
+                        .id("merge2048")
                 }
             }
 
@@ -183,9 +193,11 @@ struct ContentView: View {
 
     private func menuColor(for mode: GameMode) -> Color {
         switch mode {
-        case .random: accentColor
         case .minecraft: Color.green.opacity(0.85)
         case .crafting: Color.orange.opacity(0.9)
+        case .memory: Color.purple.opacity(0.88)
+        case .taboo: Color.teal.opacity(0.88)
+        case .merge2048: Color.brown.opacity(0.85)
         }
     }
 

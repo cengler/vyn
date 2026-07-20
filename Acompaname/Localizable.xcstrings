@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "es",
   "strings" : {
+    "%lld" : {
+
+    },
     "%lld/%lld" : {
       "localizations" : {
         "es" : {
@@ -51,22 +54,42 @@
         }
       }
     },
-    "crafting.load.error" : {
+    "crafting.load.empty" : {
       "localizations" : {
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "No se pudo cargar crafting_recipes.json del bundle de la app."
+            "value" : "crafting_recipes.json no tiene recetas."
           }
         }
       }
     },
-    "crafting.load.fallback" : {
+    "crafting.load.invalid" : {
       "localizations" : {
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Usando recetas incluidas. Agregá crafting_recipes.json a Copy Bundle Resources."
+            "value" : "crafting_recipes.json tiene un formato inválido."
+          }
+        }
+      }
+    },
+    "crafting.load.missing" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se encontró crafting_recipes.json en el bundle de la app."
+          }
+        }
+      }
+    },
+    "crafting.load.unreadable" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo leer crafting_recipes.json."
           }
         }
       }
@@ -141,6 +164,61 @@
         }
       }
     },
+    "item.apple" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manzana"
+          }
+        }
+      }
+    },
+    "item.arrow" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flecha"
+          }
+        }
+      }
+    },
+    "item.bone" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hueso"
+          }
+        }
+      }
+    },
+    "item.bow" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arco"
+          }
+        }
+      }
+    },
+    "item.bucket" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balde"
+          }
+        }
+      }
+    },
     "item.chest" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -207,6 +285,83 @@
         }
       }
     },
+    "item.diamond_axe" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hacha de diamante"
+          }
+        }
+      }
+    },
+    "item.diamond_hoe" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Azada de diamante"
+          }
+        }
+      }
+    },
+    "item.diamond_pickaxe" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pico de diamante"
+          }
+        }
+      }
+    },
+    "item.diamond_shovel" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pala de diamante"
+          }
+        }
+      }
+    },
+    "item.diamond_sword" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Espada de diamante"
+          }
+        }
+      }
+    },
+    "item.feather" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pluma"
+          }
+        }
+      }
+    },
+    "item.flint" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pedernal"
+          }
+        }
+      }
+    },
     "item.furnace" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -218,6 +373,83 @@
         }
       }
     },
+    "item.gold_ingot" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lingote de oro"
+          }
+        }
+      }
+    },
+    "item.golden_apple" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manzana dorada"
+          }
+        }
+      }
+    },
+    "item.golden_axe" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hacha de oro"
+          }
+        }
+      }
+    },
+    "item.golden_hoe" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Azada de oro"
+          }
+        }
+      }
+    },
+    "item.golden_pickaxe" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pico de oro"
+          }
+        }
+      }
+    },
+    "item.golden_shovel" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pala de oro"
+          }
+        }
+      }
+    },
+    "item.golden_sword" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Espada de oro"
+          }
+        }
+      }
+    },
     "item.iron_axe" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -225,6 +457,39 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hacha de hierro"
+          }
+        }
+      }
+    },
+    "item.iron_boots" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Botas de hierro"
+          }
+        }
+      }
+    },
+    "item.iron_chestplate" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peto de hierro"
+          }
+        }
+      }
+    },
+    "item.iron_helmet" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Casco de hierro"
           }
         }
       }
@@ -247,6 +512,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lingote de hierro"
+          }
+        }
+      }
+    },
+    "item.iron_leggings" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grebas de hierro"
           }
         }
       }
@@ -295,6 +571,17 @@
         }
       }
     },
+    "item.netherite_chestplate" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peto de netherita"
+          }
+        }
+      }
+    },
     "item.oak_log" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -317,6 +604,17 @@
         }
       }
     },
+    "item.rail" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riel"
+          }
+        }
+      }
+    },
     "item.redstone_dust" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -324,6 +622,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Polvo de redstone"
+          }
+        }
+      }
+    },
+    "item.redstone_torch" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antorcha de redstone"
+          }
+        }
+      }
+    },
+    "item.shield" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escudo"
           }
         }
       }
@@ -394,6 +714,17 @@
         }
       }
     },
+    "item.string" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuerda"
+          }
+        }
+      }
+    },
     "item.torch" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -460,6 +791,66 @@
         }
       }
     },
+    "memory.instruction" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocá dos cartas iguales"
+          }
+        }
+      }
+    },
+    "memory.moves %lld" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld movimientos"
+          }
+        }
+      }
+    },
+    "memory.pairs %lld %lld" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parejas: %1$lld/%2$lld"
+          }
+        }
+      }
+    },
+    "memory.victory.action" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocá para volver al menú"
+          }
+        }
+      }
+    },
+    "memory.victory.subtitle %lld" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lo lograste en %lld movimientos"
+          }
+        }
+      }
+    },
+    "memory.victory.title" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Genial!"
+          }
+        }
+      }
+    },
     "menu.attribution" : {
       "localizations" : {
         "es" : {
@@ -476,6 +867,76 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elegí un modo"
+          }
+        }
+      }
+    },
+    "merge2048.gameover.action" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocá para intentar de nuevo"
+          }
+        }
+      }
+    },
+    "merge2048.gameover.title" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin movimientos"
+          }
+        }
+      }
+    },
+    "merge2048.instruction" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deslizá para combinar materiales iguales"
+          }
+        }
+      }
+    },
+    "merge2048.score %lld" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puntos: %lld"
+          }
+        }
+      }
+    },
+    "merge2048.victory.action" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocá para volver al menú"
+          }
+        }
+      }
+    },
+    "merge2048.victory.subtitle" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Llegaste al material más fuerte"
+          }
+        }
+      }
+    },
+    "merge2048.victory.title" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Netherita!"
           }
         }
       }
@@ -500,6 +961,46 @@
         }
       }
     },
+    "mode.memory.subtitle" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encontrá las parejas"
+          }
+        }
+      }
+    },
+    "mode.memory.title" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memoria"
+          }
+        }
+      }
+    },
+    "mode.merge2048.subtitle" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Madera → Netherita"
+          }
+        }
+      }
+    },
+    "mode.merge2048.title" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2048"
+          }
+        }
+      }
+    },
     "mode.minecraft.subtitle" : {
       "localizations" : {
         "es" : {
@@ -520,22 +1021,82 @@
         }
       }
     },
-    "mode.random.subtitle" : {
+    "mode.taboo.subtitle" : {
       "localizations" : {
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sopa de letras mixta"
+            "value" : "Describí sin decir las prohibidas"
           }
         }
       }
     },
-    "mode.random.title" : {
+    "mode.taboo.title" : {
       "localizations" : {
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aleatorio"
+            "value" : "Tabú"
+          }
+        }
+      }
+    },
+    "taboo.failure" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error"
+          }
+        }
+      }
+    },
+    "taboo.failure_label" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Errores"
+          }
+        }
+      }
+    },
+    "taboo.forbidden_title" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No podés decir:"
+          }
+        }
+      }
+    },
+    "taboo.instruction" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Describí la palabra sin usar las prohibidas"
+          }
+        }
+      }
+    },
+    "taboo.success" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acierto"
+          }
+        }
+      }
+    },
+    "taboo.success_label" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aciertos"
           }
         }
       }

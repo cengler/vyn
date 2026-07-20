@@ -16,10 +16,16 @@
 		A1000001000000000000000E /* CraftingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002000000000000000E /* CraftingData.swift */; };
 		A1000001000000000000000F /* CraftIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002000000000000000F /* CraftIconView.swift */; };
 		A10000010000000000000010 /* CraftingGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000010 /* CraftingGameView.swift */; };
-		A10000010000000000000013 /* CraftingRecipesFallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000013 /* CraftingRecipesFallback.swift */; };
 		A10000010000000000000011 /* CraftingIcons in Resources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000011 /* CraftingIcons */; };
+		A10000010000000000000012 /* crafting_recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000012 /* crafting_recipes.json */; };
 		A10000010000000000000014 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000014 /* Localizable.xcstrings */; };
 		A10000010000000000000015 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000015 /* L10n.swift */; };
+		A10000010000000000000016 /* MemoryGameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000016 /* MemoryGameEngine.swift */; };
+		A10000010000000000000017 /* MemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000017 /* MemoryGameView.swift */; };
+		A10000010000000000000018 /* TabooData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000018 /* TabooData.swift */; };
+		A10000010000000000000019 /* TabooGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000019 /* TabooGameView.swift */; };
+		A10000010000000000000020 /* Merge2048Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000020 /* Merge2048Engine.swift */; };
+		A10000010000000000000021 /* Merge2048GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000021 /* Merge2048GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,11 +38,16 @@
 		A1000002000000000000000E /* CraftingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftingData.swift; sourceTree = "<group>"; };
 		A1000002000000000000000F /* CraftIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftIconView.swift; sourceTree = "<group>"; };
 		A10000020000000000000010 /* CraftingGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftingGameView.swift; sourceTree = "<group>"; };
-		A10000020000000000000013 /* CraftingRecipesFallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftingRecipesFallback.swift; sourceTree = "<group>"; };
 		A10000020000000000000011 /* CraftingIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CraftingIcons; sourceTree = "<group>"; };
 		A10000020000000000000012 /* crafting_recipes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = crafting_recipes.json; sourceTree = "<group>"; };
 		A10000020000000000000014 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		A10000020000000000000015 /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+		A10000020000000000000016 /* MemoryGameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameEngine.swift; sourceTree = "<group>"; };
+		A10000020000000000000017 /* MemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameView.swift; sourceTree = "<group>"; };
+		A10000020000000000000018 /* TabooData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabooData.swift; sourceTree = "<group>"; };
+		A10000020000000000000019 /* TabooGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabooGameView.swift; sourceTree = "<group>"; };
+		A10000020000000000000020 /* Merge2048Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge2048Engine.swift; sourceTree = "<group>"; };
+		A10000020000000000000021 /* Merge2048GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge2048GameView.swift; sourceTree = "<group>"; };
 		A10000030000000000000001 /* Acompaname.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acompaname.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -70,11 +81,16 @@
 				A1000002000000000000000E /* CraftingData.swift */,
 				A1000002000000000000000F /* CraftIconView.swift */,
 				A10000020000000000000010 /* CraftingGameView.swift */,
-				A10000020000000000000013 /* CraftingRecipesFallback.swift */,
 				A10000020000000000000011 /* CraftingIcons */,
 				A10000020000000000000012 /* crafting_recipes.json */,
 				A10000020000000000000014 /* Localizable.xcstrings */,
 				A10000020000000000000015 /* L10n.swift */,
+				A10000020000000000000016 /* MemoryGameEngine.swift */,
+				A10000020000000000000017 /* MemoryGameView.swift */,
+				A10000020000000000000018 /* TabooData.swift */,
+				A10000020000000000000019 /* TabooGameView.swift */,
+				A10000020000000000000020 /* Merge2048Engine.swift */,
+				A10000020000000000000021 /* Merge2048GameView.swift */,
 				A10000020000000000000003 /* Assets.xcassets */,
 			);
 			path = Acompaname;
@@ -168,8 +184,13 @@
 				A1000001000000000000000E /* CraftingData.swift in Sources */,
 				A1000001000000000000000F /* CraftIconView.swift in Sources */,
 				A10000010000000000000010 /* CraftingGameView.swift in Sources */,
-				A10000010000000000000013 /* CraftingRecipesFallback.swift in Sources */,
 				A10000010000000000000015 /* L10n.swift in Sources */,
+				A10000010000000000000016 /* MemoryGameEngine.swift in Sources */,
+				A10000010000000000000017 /* MemoryGameView.swift in Sources */,
+				A10000010000000000000018 /* TabooData.swift in Sources */,
+				A10000010000000000000019 /* TabooGameView.swift in Sources */,
+				A10000010000000000000020 /* Merge2048Engine.swift in Sources */,
+				A10000010000000000000021 /* Merge2048GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -4,6 +4,9 @@ import UIKit
 struct CraftIconView: View {
     let id: String
     var size: CGFloat = 52
+    var contentPadding: CGFloat = 0.08
+    var cornerRadius: CGFloat = 8
+    var showsBorder: Bool = true
 
     @State private var image: UIImage?
 
@@ -13,18 +16,20 @@ struct CraftIconView: View {
                 Image(uiImage: image)
                     .resizable()
                     .interpolation(.none)
-                    .scaledToFit()
-                    .padding(size * 0.08)
+                    .modifier(IconScaling(fillsBounds: contentPadding == 0))
+                    .padding(size * contentPadding)
             } else {
                 fallback
             }
         }
         .frame(width: size, height: size)
-        .clipShape(RoundedRectangle(cornerRadius: 8))
-        .overlay(
-            RoundedRectangle(cornerRadius: 8)
-                .stroke(.white.opacity(0.25), lineWidth: 1)
-        )
+        .clipShape(RoundedRectangle(cornerRadius: cornerRadius))
+        .overlay {
+            if showsBorder {
+                RoundedRectangle(cornerRadius: cornerRadius)
+                    .stroke(.white.opacity(0.25), lineWidth: 1)
+            }
+        }
         .task(id: id) {
             image = CraftIconLoader.image(named: id)
         }
@@ -33,11 +38,23 @@ struct CraftIconView: View {
     private var fallback: some View {
         let rgb = CraftIconPalette.color(for: id)
         return ZStack {
-            RoundedRectangle(cornerRadius: 8)
+            RoundedRectangle(cornerRadius: cornerRadius)
                 .fill(Color(red: rgb.red, green: rgb.green, blue: rgb.blue))
             Text(String(id.prefix(2)))
                 .font(.system(size: size * 0.28, weight: .black, design: .rounded))
                 .foregroundStyle(.white.opacity(0.9))
+        }
+    }
+}
+
+private struct IconScaling: ViewModifier {
+    let fillsBounds: Bool
+
+    func body(content: Content) -> some View {
+        if fillsBounds {
+            content.scaledToFill()
+        } else {
+            content.scaledToFit()
         }
     }
 }
@@ -78,6 +95,10 @@ enum CraftIconLoader {
 
         cache.setObject(image, forKey: key)
         return image
+    }
+
+    static var registeredMaterialIDs: [String] {
+        Array(urlIndex.keys).sorted()
     }
 
     static func preload(ids: [String]) {

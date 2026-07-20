@@ -1,17 +1,5 @@
 {
   "session_size": 5,
-  "decoys": [
-    "diamond",
-    "copper_ingot",
-    "iron_pickaxe",
-    "iron_sword",
-    "furnace",
-    "chest",
-    "torch",
-    "redstone_dust",
-    "ladder",
-    "oak_log"
-  ],
   "recipes": [
     {
       "result": "iron_pickaxe",
@@ -329,6 +317,216 @@
       ]
     },
     {
+      "result": "golden_pickaxe",
+      "note": "Pico de oro",
+      "pattern": [
+        [
+          "gold_ingot",
+          "gold_ingot",
+          "gold_ingot"
+        ],
+        [
+          null,
+          "stick",
+          null
+        ],
+        [
+          null,
+          "stick",
+          null
+        ]
+      ]
+    },
+    {
+      "result": "golden_axe",
+      "note": "Hacha de oro",
+      "pattern": [
+        [
+          "gold_ingot",
+          "gold_ingot",
+          null
+        ],
+        [
+          "gold_ingot",
+          "stick",
+          null
+        ],
+        [
+          null,
+          "stick",
+          null
+        ]
+      ]
+    },
+    {
+      "result": "golden_sword",
+      "note": "Espada de oro",
+      "pattern": [
+        [
+          null,
+          "gold_ingot",
+          null
+        ],
+        [
+          null,
+          "gold_ingot",
+          null
+        ],
+        [
+          null,
+          "stick",
+          null
+        ]
+      ]
+    },
+    {
+      "result": "golden_shovel",
+      "note": "Pala de oro",
+      "pattern": [
+        [
+          null,
+          "gold_ingot",
+          null
+        ],
+        [
+          null,
+          "stick",
+          null
+        ],
+        [
+          null,
+          "stick",
+          null
+        ]
+      ]
+    },
+    {
+      "result": "golden_hoe",
+      "note": "Azada de oro",
+      "pattern": [
+        [
+          "gold_ingot",
+          "gold_ingot",
+          null
+        ],
+        [
+          null,
+          "stick",
+          null
+        ],
+        [
+          null,
+          "stick",
+          null
+        ]
+      ]
+    },
+    {
+      "result": "diamond_pickaxe",
+      "note": "Pico de diamante",
+      "pattern": [
+        [
+          "diamond",
+          "diamond",
+          "diamond"
+        ],
+        [
+          null,
+          "stick",
+          null
+        ],
+        [
+          null,
+          "stick",
+          null
+        ]
+      ]
+    },
+    {
+      "result": "diamond_axe",
+      "note": "Hacha de diamante",
+      "pattern": [
+        [
+          "diamond",
+          "diamond",
+          null
+        ],
+        [
+          "diamond",
+          "stick",
+          null
+        ],
+        [
+          null,
+          "stick",
+          null
+        ]
+      ]
+    },
+    {
+      "result": "diamond_sword",
+      "note": "Espada de diamante",
+      "pattern": [
+        [
+          null,
+          "diamond",
+          null
+        ],
+        [
+          null,
+          "diamond",
+          null
+        ],
+        [
+          null,
+          "stick",
+          null
+        ]
+      ]
+    },
+    {
+      "result": "diamond_shovel",
+      "note": "Pala de diamante",
+      "pattern": [
+        [
+          null,
+          "diamond",
+          null
+        ],
+        [
+          null,
+          "stick",
+          null
+        ],
+        [
+          null,
+          "stick",
+          null
+        ]
+      ]
+    },
+    {
+      "result": "diamond_hoe",
+      "note": "Azada de diamante",
+      "pattern": [
+        [
+          "diamond",
+          "diamond",
+          null
+        ],
+        [
+          null,
+          "stick",
+          null
+        ],
+        [
+          null,
+          "stick",
+          null
+        ]
+      ]
+    },
+    {
       "result": "torch",
       "note": "Antorcha",
       "pattern": [
@@ -430,6 +628,279 @@
           "oak_planks",
           "oak_planks",
           "oak_planks"
+        ]
+      ]
+    },
+    {
+      "result": "furnace",
+      "note": "Horno",
+      "pattern": [
+        [
+          "cobblestone",
+          "cobblestone",
+          "cobblestone"
+        ],
+        [
+          "cobblestone",
+          null,
+          "cobblestone"
+        ],
+        [
+          "cobblestone",
+          "cobblestone",
+          "cobblestone"
+        ]
+      ]
+    },
+    {
+      "result": "ladder",
+      "note": "Escalera",
+      "pattern": [
+        [
+          "stick",
+          null,
+          "stick"
+        ],
+        [
+          "stick",
+          null,
+          "stick"
+        ],
+        [
+          "stick",
+          null,
+          "stick"
+        ]
+      ]
+    },
+    {
+      "result": "bucket",
+      "note": "Balde",
+      "pattern": [
+        [
+          "iron_ingot",
+          "iron_ingot",
+          null
+        ],
+        [
+          null,
+          "iron_ingot",
+          null
+        ],
+        [
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "result": "bow",
+      "note": "Arco",
+      "pattern": [
+        [
+          null,
+          "stick",
+          "string"
+        ],
+        [
+          "stick",
+          null,
+          "string"
+        ],
+        [
+          null,
+          "stick",
+          "string"
+        ]
+      ]
+    },
+    {
+      "result": "arrow",
+      "note": "Flecha",
+      "pattern": [
+        [
+          null,
+          "flint",
+          null
+        ],
+        [
+          null,
+          "stick",
+          null
+        ],
+        [
+          null,
+          "feather",
+          null
+        ]
+      ]
+    },
+    {
+      "result": "redstone_torch",
+      "note": "Antorcha de redstone",
+      "pattern": [
+        [
+          null,
+          "redstone_dust",
+          null
+        ],
+        [
+          null,
+          "stick",
+          null
+        ],
+        [
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "result": "golden_apple",
+      "note": "Manzana dorada",
+      "pattern": [
+        [
+          "gold_ingot",
+          "gold_ingot",
+          "gold_ingot"
+        ],
+        [
+          "gold_ingot",
+          "apple",
+          "gold_ingot"
+        ],
+        [
+          "gold_ingot",
+          "gold_ingot",
+          "gold_ingot"
+        ]
+      ]
+    },
+    {
+      "result": "iron_helmet",
+      "note": "Casco de hierro",
+      "pattern": [
+        [
+          "iron_ingot",
+          "iron_ingot",
+          "iron_ingot"
+        ],
+        [
+          "iron_ingot",
+          null,
+          "iron_ingot"
+        ],
+        [
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "result": "iron_chestplate",
+      "note": "Peto de hierro",
+      "pattern": [
+        [
+          "iron_ingot",
+          null,
+          "iron_ingot"
+        ],
+        [
+          "iron_ingot",
+          "iron_ingot",
+          "iron_ingot"
+        ],
+        [
+          "iron_ingot",
+          "iron_ingot",
+          "iron_ingot"
+        ]
+      ]
+    },
+    {
+      "result": "iron_leggings",
+      "note": "Grebas de hierro",
+      "pattern": [
+        [
+          "iron_ingot",
+          "iron_ingot",
+          "iron_ingot"
+        ],
+        [
+          "iron_ingot",
+          null,
+          "iron_ingot"
+        ],
+        [
+          "iron_ingot",
+          null,
+          "iron_ingot"
+        ]
+      ]
+    },
+    {
+      "result": "iron_boots",
+      "note": "Botas de hierro",
+      "pattern": [
+        [
+          null,
+          null,
+          null
+        ],
+        [
+          "iron_ingot",
+          null,
+          "iron_ingot"
+        ],
+        [
+          "iron_ingot",
+          null,
+          "iron_ingot"
+        ]
+      ]
+    },
+    {
+      "result": "shield",
+      "note": "Escudo",
+      "pattern": [
+        [
+          "oak_planks",
+          "iron_ingot",
+          "oak_planks"
+        ],
+        [
+          "oak_planks",
+          "oak_planks",
+          "oak_planks"
+        ],
+        [
+          null,
+          "oak_planks",
+          null
+        ]
+      ]
+    },
+    {
+      "result": "rail",
+      "note": "Riel",
+      "pattern": [
+        [
+          "iron_ingot",
+          "iron_ingot",
+          "iron_ingot"
+        ],
+        [
+          "iron_ingot",
+          "stick",
+          "iron_ingot"
+        ],
+        [
+          "iron_ingot",
+          "iron_ingot",
+          "iron_ingot"
         ]
       ]
     }

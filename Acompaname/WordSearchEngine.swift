@@ -20,41 +20,20 @@ struct WordSearchPuzzle {
 }
 
 enum WordTheme: String, CaseIterable, Identifiable {
-    case random
     case minecraft
 
     var id: String { rawValue }
 
     var title: String {
-        switch self {
-        case .random: String(localized: "mode.random.title")
-        case .minecraft: String(localized: "mode.minecraft.title")
-        }
+        String(localized: "mode.minecraft.title")
     }
 
     var subtitle: String {
-        switch self {
-        case .random: String(localized: "mode.random.subtitle")
-        case .minecraft: String(localized: "mode.minecraft.subtitle")
-        }
+        String(localized: "mode.minecraft.subtitle")
     }
 }
 
 enum WordBank {
-    static let spanishWords: [String] = [
-        "SOL", "LUNA", "CASA", "GATO", "PERRO", "AGUA", "FLOR", "AMOR", "MESA", "SILLA",
-        "PUERTA", "CAMPO", "PLAYA", "MONTE", "BOSQUE", "RIO", "MAR", "PEZ", "PAJARO", "HOJA",
-        "FRUTA", "MANZANA", "PERA", "UVA", "CAFE", "AZUCAR", "SAL", "FUEGO", "AIRE", "TIERRA",
-        "CIELO", "NUBE", "LLUVIA", "VIENTO", "FRIO", "CALOR", "DIA", "NOCHE", "ESTRELLA", "LUZ",
-        "ROJO", "AZUL", "VERDE", "BLANCO", "NEGRO", "ROSA", "GRIS", "MANO", "PIE", "OJO",
-        "BOCA", "CARA", "BRAZO", "PIERNA", "COMIDA", "CENA", "PAN", "QUESO", "HUEVO", "CARNE",
-        "ARROZ", "SOPA", "JUGO", "DULCE", "LIBRO", "LAPIZ", "PAPEL", "ESCUELA", "CLASE", "JUEGO",
-        "PELOTA", "CORRER", "SALTAR", "CAMINAR", "CANTAR", "BAILAR", "DORMIR", "SONAR", "REIR", "HABLAR",
-        "MIRAR", "COMER", "BEBER", "VIVIR", "DEDO", "RELOJ", "CAMA", "TOALLA", "JABON", "ESPEJO",
-        "VENTANA", "TECHO", "PISO", "JARDIN", "PLANTA", "SEMILLA", "HIERBA", "RAMA", "HORMIGA", "ABEJA",
-        "PATO", "VACA", "OVEJA", "CERDO", "RATON", "LEON", "OSO", "MONO", "CIUDAD", "CALLE"
-    ]
-
     static let minecraft: [String] = [
         "STEVE", "ALEX", "CREEPER", "ZOMBIE", "ESQUELETO", "ARANA", "ENDER", "NETHER", "PICO", "HACHA",
         "ESPADA", "ARCO", "FLECHA", "BLOQUE", "TIERRA", "PIEDRA", "ARENA", "LAVA", "HIELO", "NIEVE",
@@ -65,7 +44,6 @@ enum WordBank {
 
     static func words(for theme: WordTheme) -> [String] {
         switch theme {
-        case .random: spanishWords
         case .minecraft: minecraft
         }
     }
@@ -85,7 +63,7 @@ enum WordSearchGenerator {
         rows: Int = minRows,
         columns: Int = fixedColumns,
         wordCount: Int = 6,
-        theme: WordTheme = .random
+        theme: WordTheme = .minecraft
     ) -> WordSearchPuzzle {
         let rowCount = min(max(rows, minRows), maxRows)
         let colCount = fixedColumns
