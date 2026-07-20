@@ -6,6 +6,8 @@ enum GameMode: String, CaseIterable, Identifiable {
     case memory
     case taboo
     case merge2048
+    case crossword
+    case hangman
 
     var id: String { rawValue }
 
@@ -20,7 +22,7 @@ enum GameMode: String, CaseIterable, Identifiable {
     var wordSearchTheme: WordTheme? {
         switch self {
         case .minecraft: .minecraft
-        case .crafting, .memory, .taboo, .merge2048: nil
+        case .crafting, .memory, .taboo, .merge2048, .crossword, .hangman: nil
         }
     }
 }

@@ -46,6 +46,8 @@ enum L10n {
         case .memory: String(localized: "mode.memory.title")
         case .taboo: String(localized: "mode.taboo.title")
         case .merge2048: String(localized: "mode.merge2048.title")
+        case .crossword: String(localized: "mode.crossword.title")
+        case .hangman: String(localized: "mode.hangman.title")
         }
     }
 
@@ -56,6 +58,8 @@ enum L10n {
         case .memory: String(localized: "mode.memory.subtitle")
         case .taboo: String(localized: "mode.taboo.subtitle")
         case .merge2048: String(localized: "mode.merge2048.subtitle")
+        case .crossword: String(localized: "mode.crossword.subtitle")
+        case .hangman: String(localized: "mode.hangman.subtitle")
         }
     }
 
@@ -76,6 +80,50 @@ enum L10n {
     static let tabooFailure = String(localized: "taboo.failure")
     static let tabooSuccessLabel = String(localized: "taboo.success_label")
     static let tabooFailureLabel = String(localized: "taboo.failure_label")
+
+    static let crosswordInstruction = String(localized: "crossword.instruction")
+    static let crosswordCluesTitle = String(localized: "crossword.clues_title")
+    static let crosswordDelete = String(localized: "crossword.delete")
+    static let crosswordVictoryTitle = String(localized: "crossword.victory.title")
+    static let crosswordVictorySubtitle = String(localized: "crossword.victory.subtitle")
+    static let crosswordVictoryAction = String(localized: "crossword.victory.action")
+
+    static func crosswordProgress(solved: Int, total: Int) -> String {
+        String(localized: "crossword.progress \(solved) \(total)")
+    }
+
+    static func crosswordHintsUsed(_ count: Int) -> String {
+        String(localized: "crossword.hints \(count)")
+    }
+
+    static func crosswordAcrossLabel(number: Int) -> String {
+        String(localized: "crossword.across \(number)")
+    }
+
+    static func crosswordDownLabel(number: Int) -> String {
+        String(localized: "crossword.down \(number)")
+    }
+
+    static let hangmanInstruction = String(localized: "hangman.instruction")
+    static let hangmanHintTitle = String(localized: "hangman.hint_title")
+    static let hangmanWinsLabel = String(localized: "hangman.wins_label")
+    static let hangmanLossesLabel = String(localized: "hangman.losses_label")
+    static let hangmanVictoryTitle = String(localized: "hangman.victory.title")
+    static let hangmanVictoryAction = String(localized: "hangman.victory.action")
+    static let hangmanGameOverTitle = String(localized: "hangman.gameover.title")
+    static let hangmanGameOverAction = String(localized: "hangman.gameover.action")
+
+    static func hangmanRemainingGuesses(_ count: Int) -> String {
+        String(localized: "hangman.remaining \(count)")
+    }
+
+    static func hangmanVictorySubtitle(word: String) -> String {
+        String(localized: "hangman.victory.subtitle \(word)")
+    }
+
+    static func hangmanGameOverSubtitle(word: String) -> String {
+        String(localized: "hangman.gameover.subtitle \(word)")
+    }
 
     static func craftingVictorySubtitle(count: Int) -> String {
         String(localized: "crafting.victory.subtitle \(count)")

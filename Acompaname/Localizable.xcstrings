@@ -1001,6 +1001,256 @@
         }
       }
     },
+    "mode.crossword.subtitle" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completá con pistas Minecraft"
+          }
+        }
+      }
+    },
+    "mode.crossword.title" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crucigrama"
+          }
+        }
+      }
+    },
+    "crossword.across %lld" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld→"
+          }
+        }
+      }
+    },
+    "crossword.clues_title" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pistas"
+          }
+        }
+      }
+    },
+    "crossword.delete" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrar"
+          }
+        }
+      }
+    },
+    "crossword.down %lld" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld↓"
+          }
+        }
+      }
+    },
+    "crossword.hints %lld" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pistas usadas: %lld"
+          }
+        }
+      }
+    },
+    "crossword.instruction" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocá una casilla, leé la pista y escribí la palabra"
+          }
+        }
+      }
+    },
+    "crossword.progress %lld %lld" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palabras: %lld/%lld"
+          }
+        }
+      }
+    },
+    "crossword.victory.action" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocá para volver al menú"
+          }
+        }
+      }
+    },
+    "crossword.victory.subtitle" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resolviste todo el crucigrama"
+          }
+        }
+      }
+    },
+    "crossword.victory.title" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Crucigrama listo!"
+          }
+        }
+      }
+    },
+    "hangman.gameover.action" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocá para jugar otra palabra"
+          }
+        }
+      }
+    },
+    "hangman.gameover.subtitle %@" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La palabra era %@"
+          }
+        }
+      }
+    },
+    "hangman.gameover.title" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se acabaron los intentos"
+          }
+        }
+      }
+    },
+    "hangman.hint_title" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pista"
+          }
+        }
+      }
+    },
+    "hangman.instruction" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adiviná la palabra antes de completar el dibujo"
+          }
+        }
+      }
+    },
+    "hangman.losses_label" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Derrotas"
+          }
+        }
+      }
+    },
+    "hangman.remaining %lld" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intentos restantes: %lld"
+          }
+        }
+      }
+    },
+    "hangman.victory.action" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocá para jugar otra palabra"
+          }
+        }
+      }
+    },
+    "hangman.victory.subtitle %@" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descubriste: %@"
+          }
+        }
+      }
+    },
+    "hangman.victory.title" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Palabra correcta!"
+          }
+        }
+      }
+    },
+    "hangman.wins_label" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aciertos"
+          }
+        }
+      }
+    },
+    "mode.hangman.subtitle" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adiviná palabras de Minecraft"
+          }
+        }
+      }
+    },
+    "mode.hangman.title" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ahorcado"
+          }
+        }
+      }
+    },
     "mode.minecraft.subtitle" : {
       "localizations" : {
         "es" : {

@@ -40,6 +40,12 @@ struct ContentView: View {
                 case .merge2048:
                     Merge2048GameView(onMenu: openMenu)
                         .id("merge2048")
+                case .crossword:
+                    CrosswordGameView(onMenu: openMenu)
+                        .id("crossword")
+                case .hangman:
+                    HangmanGameView(onMenu: openMenu)
+                        .id("hangman")
                 }
             }
 
@@ -198,6 +204,8 @@ struct ContentView: View {
         case .memory: Color.purple.opacity(0.88)
         case .taboo: Color.teal.opacity(0.88)
         case .merge2048: Color.brown.opacity(0.85)
+        case .crossword: Color.indigo.opacity(0.88)
+        case .hangman: Color.cyan.opacity(0.82)
         }
     }
 

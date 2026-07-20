@@ -26,6 +26,12 @@
 		A10000010000000000000019 /* TabooGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000019 /* TabooGameView.swift */; };
 		A10000010000000000000020 /* Merge2048Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000020 /* Merge2048Engine.swift */; };
 		A10000010000000000000021 /* Merge2048GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000021 /* Merge2048GameView.swift */; };
+		A10000010000000000000022 /* CrosswordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000022 /* CrosswordData.swift */; };
+		A10000010000000000000023 /* CrosswordEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000023 /* CrosswordEngine.swift */; };
+		A10000010000000000000024 /* CrosswordGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000024 /* CrosswordGameView.swift */; };
+		A10000010000000000000025 /* HangmanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000025 /* HangmanData.swift */; };
+		A10000010000000000000026 /* HangmanEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000026 /* HangmanEngine.swift */; };
+		A10000010000000000000027 /* HangmanGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000027 /* HangmanGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +54,12 @@
 		A10000020000000000000019 /* TabooGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabooGameView.swift; sourceTree = "<group>"; };
 		A10000020000000000000020 /* Merge2048Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge2048Engine.swift; sourceTree = "<group>"; };
 		A10000020000000000000021 /* Merge2048GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge2048GameView.swift; sourceTree = "<group>"; };
+		A10000020000000000000022 /* CrosswordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordData.swift; sourceTree = "<group>"; };
+		A10000020000000000000023 /* CrosswordEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordEngine.swift; sourceTree = "<group>"; };
+		A10000020000000000000024 /* CrosswordGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordGameView.swift; sourceTree = "<group>"; };
+		A10000020000000000000025 /* HangmanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanData.swift; sourceTree = "<group>"; };
+		A10000020000000000000026 /* HangmanEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanEngine.swift; sourceTree = "<group>"; };
+		A10000020000000000000027 /* HangmanGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanGameView.swift; sourceTree = "<group>"; };
 		A10000030000000000000001 /* Acompaname.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acompaname.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -91,6 +103,12 @@
 				A10000020000000000000019 /* TabooGameView.swift */,
 				A10000020000000000000020 /* Merge2048Engine.swift */,
 				A10000020000000000000021 /* Merge2048GameView.swift */,
+				A10000020000000000000022 /* CrosswordData.swift */,
+				A10000020000000000000023 /* CrosswordEngine.swift */,
+				A10000020000000000000024 /* CrosswordGameView.swift */,
+				A10000020000000000000025 /* HangmanData.swift */,
+				A10000020000000000000026 /* HangmanEngine.swift */,
+				A10000020000000000000027 /* HangmanGameView.swift */,
 				A10000020000000000000003 /* Assets.xcassets */,
 			);
 			path = Acompaname;
@@ -191,6 +209,12 @@
 				A10000010000000000000019 /* TabooGameView.swift in Sources */,
 				A10000010000000000000020 /* Merge2048Engine.swift in Sources */,
 				A10000010000000000000021 /* Merge2048GameView.swift in Sources */,
+				A10000010000000000000022 /* CrosswordData.swift in Sources */,
+				A10000010000000000000023 /* CrosswordEngine.swift in Sources */,
+				A10000010000000000000024 /* CrosswordGameView.swift in Sources */,
+				A10000010000000000000025 /* HangmanData.swift in Sources */,
+				A10000010000000000000026 /* HangmanEngine.swift in Sources */,
+				A10000010000000000000027 /* HangmanGameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
