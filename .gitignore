@@ -1,0 +1,23 @@
+# Local-only folders
+external_not_repo/
+review/
+untitled folder/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+*.xcuserdata
+xcuserdata/
+
+# Swift Package Manager
+.build/
+.swiftpm/

@@ -1,0 +1,575 @@
+{
+  "sourceLanguage" : "es",
+  "strings" : {
+    "%lld/%lld" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld/%2$lld"
+          }
+        }
+      }
+    },
+    "app.title" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viggo y NIka"
+          }
+        }
+      }
+    },
+    "crafting.action" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Craftear"
+          }
+        }
+      }
+    },
+    "crafting.attribution" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iconos hechos por fans (ver ATLAS_LICENSE.txt)"
+          }
+        }
+      }
+    },
+    "crafting.instruction" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colocá los materiales en el patrón correcto"
+          }
+        }
+      }
+    },
+    "crafting.load.error" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo cargar crafting_recipes.json del bundle de la app."
+          }
+        }
+      }
+    },
+    "crafting.load.fallback" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usando recetas incluidas. Agregá crafting_recipes.json a Copy Bundle Resources."
+          }
+        }
+      }
+    },
+    "crafting.loading" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cargando recetas…"
+          }
+        }
+      }
+    },
+    "crafting.pick_material" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elegí un material y tocá la mesa"
+          }
+        }
+      }
+    },
+    "crafting.table" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mesa de crafteo"
+          }
+        }
+      }
+    },
+    "crafting.unavailable" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recetas de crafteo no disponibles"
+          }
+        }
+      }
+    },
+    "crafting.victory.action" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocá para volver al menú"
+          }
+        }
+      }
+    },
+    "crafting.victory.subtitle %lld" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Completaste %lld recetas al azar"
+          }
+        }
+      }
+    },
+    "crafting.victory.title" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Listo!"
+          }
+        }
+      }
+    },
+    "item.chest" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cofre"
+          }
+        }
+      }
+    },
+    "item.coal" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carbón"
+          }
+        }
+      }
+    },
+    "item.cobblestone" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piedra"
+          }
+        }
+      }
+    },
+    "item.copper_ingot" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lingote de cobre"
+          }
+        }
+      }
+    },
+    "item.crafting_table" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mesa de crafteo"
+          }
+        }
+      }
+    },
+    "item.diamond" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diamante"
+          }
+        }
+      }
+    },
+    "item.furnace" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Horno"
+          }
+        }
+      }
+    },
+    "item.iron_axe" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hacha de hierro"
+          }
+        }
+      }
+    },
+    "item.iron_hoe" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Azada de hierro"
+          }
+        }
+      }
+    },
+    "item.iron_ingot" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lingote de hierro"
+          }
+        }
+      }
+    },
+    "item.iron_pickaxe" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pico de hierro"
+          }
+        }
+      }
+    },
+    "item.iron_shovel" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pala de hierro"
+          }
+        }
+      }
+    },
+    "item.iron_sword" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Espada de hierro"
+          }
+        }
+      }
+    },
+    "item.ladder" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escalera"
+          }
+        }
+      }
+    },
+    "item.oak_log" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tronco de roble"
+          }
+        }
+      }
+    },
+    "item.oak_planks" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tablas de roble"
+          }
+        }
+      }
+    },
+    "item.redstone_dust" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polvo de redstone"
+          }
+        }
+      }
+    },
+    "item.stick" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palo"
+          }
+        }
+      }
+    },
+    "item.stone_axe" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hacha de piedra"
+          }
+        }
+      }
+    },
+    "item.stone_hoe" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Azada de piedra"
+          }
+        }
+      }
+    },
+    "item.stone_pickaxe" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pico de piedra"
+          }
+        }
+      }
+    },
+    "item.stone_shovel" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pala de piedra"
+          }
+        }
+      }
+    },
+    "item.stone_sword" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Espada de piedra"
+          }
+        }
+      }
+    },
+    "item.torch" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antorcha"
+          }
+        }
+      }
+    },
+    "item.wooden_axe" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hacha de madera"
+          }
+        }
+      }
+    },
+    "item.wooden_hoe" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Azada de madera"
+          }
+        }
+      }
+    },
+    "item.wooden_pickaxe" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pico de madera"
+          }
+        }
+      }
+    },
+    "item.wooden_shovel" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pala de madera"
+          }
+        }
+      }
+    },
+    "item.wooden_sword" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Espada de madera"
+          }
+        }
+      }
+    },
+    "menu.attribution" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recetas inspiradas en Minecraft Wiki.\nIconos hechos por fans (ver ATLAS_LICENSE.txt)"
+          }
+        }
+      }
+    },
+    "menu.choose_mode" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elegí un modo"
+          }
+        }
+      }
+    },
+    "mode.crafting.subtitle" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recetas estilo Minecraft"
+          }
+        }
+      }
+    },
+    "mode.crafting.title" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crafteo"
+          }
+        }
+      }
+    },
+    "mode.minecraft.subtitle" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "50 palabras del juego"
+          }
+        }
+      }
+    },
+    "mode.minecraft.title" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minecraft"
+          }
+        }
+      }
+    },
+    "mode.random.subtitle" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopa de letras mixta"
+          }
+        }
+      }
+    },
+    "mode.random.title" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aleatorio"
+          }
+        }
+      }
+    },
+    "wordsearch.victory.action" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocá para jugar de nuevo"
+          }
+        }
+      }
+    },
+    "wordsearch.victory.subtitle" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Encontraste todas las palabras"
+          }
+        }
+      }
+    },
+    "wordsearch.victory.title" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Ganaste!"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
